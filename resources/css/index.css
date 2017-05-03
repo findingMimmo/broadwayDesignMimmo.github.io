@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+header {
+  background-image: url("../img/flatIron.png");
+  color: white;
+  width: 100%;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+nav 
