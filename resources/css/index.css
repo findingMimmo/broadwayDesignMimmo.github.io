@@ -7,6 +7,7 @@ header {
   background-image: url("../img/flatIron.png");
   color: white;
   width: 100%;
+  min-height: 280px;
 }
 
 h1 {
@@ -17,6 +18,41 @@ h1 {
 a {
   font-size: 18px;
   text-decoration: underline;
+  color: white;
 }
 
-nav 
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+#design-head {
+  color: white;
+  background-image: url("../img/flatIron.png");
+}
+
+.copyright {
+  background-color: dimgray;
+  text-align: left;
+}
+
+#symbol {
+  font-size: 11px;
+  color: white;
+}
